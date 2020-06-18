@@ -1,0 +1,30 @@
+---
+layout: default
+title: I'm a writer, coder, minimalist, and philosophy enthusiast
+---
+
+<p>
+  &rarr;<a href="/about">More about me</a> &rarr;<a href="/now"
+    >What am I doing now?
+  </a>
+  <br />&rarr;<a href="mailto:chase@chasedooley.com">chase@chasedooley.com </a>
+</p>
+
+<section id="feed">
+  {% for category in site.categories %}
+  <h2>&mdash;{{ category[0] }}</h2>
+  <ul class="no-style">
+    {% for post in category[1] limit:10 %}
+    <li>
+      <div class="flex">
+        <a href="{{ post.url }}" title="{{post.categories}}: {{post.title}}"
+          >{{ post.title }}</a
+        >
+        <time>{{post.date | date: "%b %d, %Y"}}</time>
+      </div>
+    </li>
+    {% endfor %}
+    <li><a href="/{{category[0]}}">see all</a> &rarr;</li>
+  </ul>
+  {% endfor %}
+</section>

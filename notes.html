@@ -1,0 +1,17 @@
+---
+layout: default
+title: Notes
+---
+
+<ol reversed>
+  {% for post in site.categories.notes %}
+  <li>
+    <div class="flex">
+      <a href="{{ post.url }}" title="{{post.categories}}: {{post.title}}">
+        {{ post.title }}
+      </a>
+      <time>{{post.date | date: "%b %d, %Y"}}</time>
+    </div>
+  </li>
+  {% endfor %}
+</ol>

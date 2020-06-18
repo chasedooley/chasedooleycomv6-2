@@ -1,0 +1,18 @@
+---
+layout: default
+title: Essays
+---
+
+<ul class="no-style">
+  {% for post in site.categories.essays %}
+
+  <li>
+    <div class="flex">
+      <a href="{{ post.url }}" title="{{post.categories}}: {{post.title}}">
+        {{ post.title }}
+      </a>
+      <time>{{post.date | date: "%b %d, %Y"}}</time>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,24 @@
+<footer>
+  <small>
+    {% if page.date %} Published on {{page.date | date: "%b %d, %Y"}}.
+    <br />
+    {% endif%} {% if page.categories %}
+    <a href="/{{page.categories}}">#{{page.categories}}</a>
+    {% endif%}{% if page.tags%}{% for tag in page.tags %}
+    <a href="/tags#{{tag}}">#{{tag}}</a>{% endfor %} {% endif %}
+  </small>
+  <h3>
+    <a href="/">Chase Dooley</a><br />&mdash;writer, coder, minimalist,
+    typography and philosophy enthusiast
+  </h3>
+  <small>
+    This work is licensed under a
+    <a
+      rel="license"
+      target="_blank"
+      href="http://creativecommons.org/licenses/by/4.0/"
+    >
+      Creative Commons Attribution 4.0 International License</a
+    >.
+  </small>
+</footer>
