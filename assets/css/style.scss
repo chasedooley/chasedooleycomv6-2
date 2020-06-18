@@ -147,3 +147,12 @@ footer {
 #feed {
   margin: 3rem 0;
 }
+
+summary {
+  cursor: pointer;
+}
+
+summary:hover,
+summary:focus {
+  color: var(--accent);
+}
