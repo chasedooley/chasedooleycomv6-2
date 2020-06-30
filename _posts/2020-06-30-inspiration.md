@@ -14,7 +14,15 @@ We look into the world to find meaning. We look but we don't find it. Meaning do
 
 Life indeed is meaningless. Most of life does not need meaning to live; it is content to survive. But humans are different because it is not enough for us to be. We believed there was more to life, that there had to be more to life:
 
-> Now summer is gone / And might never have been. / In the sunshine it's warm. / But there has to be more. It all came to pass, / All fell into my hands / Like a five-petalled leaf, / But there has to be more. Nothing evil was lost, / Nothing good was in vain, / All ablaze with clear light / But there has to be more. Life gathered me up / Safe under its wing, / My luck always held, / But there has to be more. Not a leaf was burnt up / Not a twig ever snapped ... / Clean as glass is the day, / But there has to be more. 
+> Now summer is gone / And might never have been. / In the sunshine it's warm. / But there has to be more. 
+>
+> It all came to pass, / All fell into my hands / Like a five-petalled leaf, / But there has to be more. 
+>
+> Nothing evil was lost, / Nothing good was in vain, / All ablaze with clear light / But there has to be more. 
+>
+> Life gathered me up / Safe under its wing, / My luck always held, / But there has to be more. 
+>
+> Not a leaf was burnt up / Not a twig ever snapped ... / Clean as glass is the day, / But there has to be more. 
 >
 > (Arseny Tarkovsky, "But There Has To Be More")
 
