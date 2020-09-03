@@ -13,4 +13,4 @@ plugins:
 
 permalink: /:categories/:slug
 
-include: _redirects
+include: [/, _redirects]
