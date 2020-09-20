@@ -11,3 +11,5 @@ plugins:
   - jekyll-feed
 
 permalink: /:categories/:slug
+
+include: [/, _redirects]
