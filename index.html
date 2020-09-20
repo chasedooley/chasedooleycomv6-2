@@ -1,20 +1,19 @@
 ---
 layout: default
-title: I'm a writer, coder, minimalist, and philosophy enthusiast
+title: I write essays, read books, journal things, and practice philosophy. I want to live a simple and good life, one in which I make a difference in the lives of others.
 ---
 
-<p>
-  &rarr;<a href="/about">More about me</a> &rarr;<a href="/now"
-    >What am I doing now?
-  </a>
-  <br />&rarr;<a href="mailto:chase@chasedooley.com">chase@chasedooley.com </a>
-</p>
+<ul>
+  <li><a href="/about">More about me</a></li>
+  <li><a href="/now">What am I doing now?</a></li>
+  <li><a href="mailto:chase@chasedooley.com">chase@chasedooley.com</a></li>
+</ul>
 
 <section id="feed">
   {% for category in site.categories %}
   <h2>&mdash;{{ category[0] }}</h2>
   <ul class="no-style">
-    {% for post in category[1] limit:10 %}
+    {% for post in category[1] limit:5 %}
     <li>
       <div class="flex">
         <a href="{{ post.url }}" title="{{post.categories}}: {{post.title}}"
@@ -24,7 +23,7 @@ title: I'm a writer, coder, minimalist, and philosophy enthusiast
       </div>
     </li>
     {% endfor %}
-    <li><a href="/{{category[0]}}">see all</a> &rarr;</li>
+    <li>(<a href="/{{category[0]}}">see all</a>)</li>
   </ul>
   {% endfor %}
 </section>
